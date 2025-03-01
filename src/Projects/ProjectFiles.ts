@@ -1,4 +1,6 @@
 import { Project } from './Project';
+import image from "../Images/testimg.png";
+
 
 export const Project_Files = [
   new Project({
@@ -6,7 +8,7 @@ export const Project_Files = [
     name: 'Test Project',
     description:
       'Test Description',
-    imageUrl: "Images/testimg.png",
+    imageUrl: image,
     brief: "Test brief. THis is to see what a slightly longer one looks like."
   }),
   new Project({
