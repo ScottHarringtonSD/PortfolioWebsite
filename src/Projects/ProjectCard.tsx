@@ -8,7 +8,7 @@ interface ProjectCardProps {
 function ProjectCard(props: ProjectCardProps) {
   const { project } = props;
   return (
-    <div className="mx-auto card max-w-sm border border-white rounded-lg shadow dark:bg-slate-800">
+    <div className="mx-auto card max-w-sm border border-slate-500 rounded-lg shadow-lg dark:bg-slate-800 p-3">
       <img
         src={project.imageUrl}
         alt={project.name}
