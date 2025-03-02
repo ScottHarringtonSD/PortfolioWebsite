@@ -1,23 +1,24 @@
 import { Project } from './Project';
-import image from "../Images/testimg.png";
+import graffitiIndexImg from "../Images/GraffitiIndex.jpg";
+import bookingSearchImg from "../Images/BookingSearchPage.png";
 
 
 export const Project_Files = [
   new Project({
     id: 1,
-    name: 'Test Project',
-    description:
-      'Test Description',
-    imageUrl: image,
-    brief: "Test brief. THis is to see what a slightly longer one looks like."
+    name: 'Oxford Heritage Graffiti Database',
+    paragraph1:
+      'A database application used to store and edit graffiti of historical importance around oxford',
+    imageUrl: graffitiIndexImg,
+    brief: "A database application used to store and edit graffiti of historical importance around Oxford."
   }),
   new Project({
     id: 2,
-    name: 'Test Project 2',
+    name: 'Booking System',
     description:
-      'Test Description 2',
-    imageUrl: 'https://wallpaperaccess.com/full/5137791.jpg',
-    brief: "Test brief 2"
+      'A simple room booking system with authentication and administrator access.',
+    imageUrl: bookingSearchImg,
+    brief: 'A simple room booking system with authentication and administrator access.'
   }),
   new Project({
     id: 2,
