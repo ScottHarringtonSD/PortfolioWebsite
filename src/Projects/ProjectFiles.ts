@@ -10,7 +10,8 @@ export const Project_Files = [
     paragraph1:
       'A database application used to store and edit graffiti of historical importance around oxford',
     imageUrl: graffitiIndexImg,
-    brief: "A database application used to store and edit graffiti of historical importance around Oxford."
+    brief: "A database application used to store and edit graffiti of historical importance around Oxford.",
+    skills: "React, Express, MongoDB"
   }),
   new Project({
     id: 2,
@@ -18,22 +19,16 @@ export const Project_Files = [
     description:
       'A simple room booking system with authentication and administrator access.',
     imageUrl: bookingSearchImg,
-    brief: 'A simple room booking system with authentication and administrator access.'
+    brief: 'A simple room booking system with authentication and administrator access.',
+    skills: "C#, MVC, Express, MongoDB"
   }),
   new Project({
-    id: 2,
-    name: 'Test Project 3',
+    id: 3,
+    name: 'ChessVision',
     description:
       'Test Description 3',
     imageUrl: 'https://wallpaperaccess.com/full/5137791.jpg',
-    brief: "Test brief 3"
-  }),
-  new Project({
-    id: 2,
-    name: 'Test Project 4',
-    description:
-      'Test Description 4',
-    imageUrl: 'https://wallpaperaccess.com/full/5137791.jpg',
-    brief: "Test brief 4"
+    brief: "A chess training website aimed at improving chess vision through the practice of blindfold chess.",
+    skills: "React"
   }),
 ];

@@ -6,6 +6,7 @@ export class Project {
     paragraph2: string = '';
     paragraph3: string = '';
     imageUrl: string = '';
+    skills: string = '';
     get isNew(): boolean {
       return this.id === undefined;
     }
@@ -19,5 +20,6 @@ export class Project {
       if (initializer.paragraph3) this.paragraph3 = initializer.paragraph3;
       if (initializer.imageUrl) this.imageUrl = initializer.imageUrl;
       if (initializer.brief) this.brief = initializer.brief;  
+      if (initializer.skills) this.skills = initializer.skills;  
     }
   }
