@@ -1,5 +1,6 @@
 import React from "react";
 import { Project } from "./Project";
+import ProjectModal from "./ProjectModal";
 
 interface ProjectCardProps {
   project: Project;
@@ -27,6 +28,9 @@ function ProjectCard(props: ProjectCardProps) {
 
           <section className="tracking-tight pb-3 pl-2 w-full">
             {project.brief}
+          </section>
+          <section className="tracking-tight pb-3 pl-2 w-full">
+            <ProjectModal project={project} />
           </section>
         </div>
       </div>

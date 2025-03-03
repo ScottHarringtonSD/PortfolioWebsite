@@ -10,10 +10,12 @@ import {
   NavLink,
 } from "react-router-dom";
 import ApplicationsPage from "./Projects/ApplicationsPage";
+import GameDesignPage from "./Projects/GameDesignPage";
 
 function App() {
   return (
     <Router>
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
       <header className="bg-slate-800 text-white sticky top-0 z-10 roboto-slab-text">
         <div className="max-w-5xl mx-auto flex p-4 items-center justify-between">
           <NavLink to="/">
@@ -27,13 +29,13 @@ function App() {
               About Me
             </NavLink>
             <NavLink
-              to="/Portfolio"
+              to="/Applications"
               className="hover:opacity-60 text-l text-right "
             >
               Applications and Web Design
             </NavLink>
             <NavLink
-              to="/Portfolio"
+              to="/GameDesign"
               className="hover:opacity-60 text-l text-right "
             >
               Game Design
@@ -47,7 +49,8 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/AboutMe" element={<AboutMe />} />
-            <Route path="/Portfolio" element={<ApplicationsPage />} />
+            <Route path="/Applications" element={<ApplicationsPage />} />
+            <Route path="/GameDesign" element={<GameDesignPage />} />
           </Routes>
         </div>
       </body>
