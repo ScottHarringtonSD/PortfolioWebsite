@@ -8,7 +8,7 @@ interface ProjectListProps {
 
 function ProjectList({ projects }: ProjectListProps) {
   return (
-    <div className="mx-auto grid place-content-center gap-2 grid-cols-3 p-2">
+    <div className="mx-auto flex place-content-center gap-2 grid-cols-3 p-2">
       {projects.map((project) => (
         <ProjectCard project={project} />
       ))}

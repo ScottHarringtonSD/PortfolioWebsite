@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-      <header className="bg-slate-800 text-white sticky top-0 z-10 roboto-slab-text">
+      <header className="bg-slate-800 text-white sticky top-0 z-10 text-font">
         <div className="max-w-5xl mx-auto flex p-4 items-center justify-between">
           <NavLink to="/">
             <h1 className="text-3xl flex text-left">Scott Harrington</h1>
@@ -44,7 +44,7 @@ function App() {
         </div>
       </header>
 
-      <body className="bg-black text-white min-h-screen roboto-slab-text">
+      <body className="bg-black text-white min-h-screen text-font">
         <div>
           <Routes>
             <Route path="/" element={<HomePage />} />

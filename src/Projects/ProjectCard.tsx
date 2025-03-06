@@ -10,19 +10,19 @@ function ProjectCard(props: ProjectCardProps) {
   const { project } = props;
   return (
     <div className="items-center justify-center">
-      <div className="mx-auto card max-w-sm border border-slate-500 rounded-lg shadow-lg dark:bg-slate-800 p-3 card-height items-center">
+      <div className="mx-auto card max-w-sm border min-w-96 border-slate-500 rounded-lg shadow-lg dark:bg-slate-800 p-3 card-height items-center">
         <div className="h-full w-full justify-center">
           <img
-            src={project.imageUrl}
+            src={project.imageUrl1}
             alt={project.name}
-            className="rounded-t-lg h-1/2 w-full"
+            className="rounded-t-lg h-1/2 w-full object-contain md:object-cover"
           ></img>
 
           <div className="Opacity text-slate-400 max-h-6 pl-2 pt-1 w-full">
             {" "}
             Skills: {project.skills}
           </div>
-          <h1 className="mb-2 text-2xl font-bold tracking-tight pl-2 pt-1 w-full">
+          <h1 className="mb-2 text-2xl tracking-tight pl-2 pt-1 w-full">
             {project.name}
           </h1>
 
