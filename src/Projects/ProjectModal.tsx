@@ -53,7 +53,7 @@ function ProjectModal(props: ProjectModalProps) {
             ></img>
           </div>
           <p className="pt-5 mx-5 pb-8">{project.paragraph3}</p>
-          <p className="pt-5 mx-5 pb-8">
+          <p className="pt-5 mx-5 pb-3">
             <a
               className="inline-flex  hover:animate-pulse"
               href={project.githubLink}
@@ -108,6 +108,16 @@ function ProjectModal(props: ProjectModalProps) {
               <span className="px-2">See the code here &gt;&gt;</span>
             </a>
           </p>
+          {project.projectLink && (
+            <a
+              className="px-2 hover:animate-pulse inline-flex"
+              href={project.projectLink}
+            >
+              <span className="px-2 pb-8">
+                Check out the application here &gt;&gt;
+              </span>
+            </a>
+          )}
         </div>
       </Modal>
     </div>

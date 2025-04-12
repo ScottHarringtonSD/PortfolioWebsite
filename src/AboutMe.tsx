@@ -8,18 +8,19 @@ function AboutMe() {
         <h1 className="text-5xl text-center">About Me</h1>
 
         <p className="text-xl text-slate-200 pt-2">
-          After graduating with a First in Chemistry from the University of
-          Oxford, I completed training with Dorset Software. I now currently
-          work as a software consultant for Dorset Software, working on a
-          variety of projects, helping to develop my knowledge of all parts of
-          the development lifecycle.
+          I hold a First-Class degree in Chemistry from the University of Oxford
+          and have since completed comprehensive training with Dorset Software.
+          Currently, I work as a software consultant at Dorset Software,
+          contributing to a variety of projects that enhance my expertise across
+          the entire software development lifecycle.
         </p>
         <p className="text-xl text-slate-200 pt-2">
-          I have primarily received training in .NET, with backend experience
-          using Entity Framework and ASP.NET Core Api and using MVC on training.
-          Since then, I have worked with a diverse range in clients in a wide
-          range of fields, including testing, database design, frontend and
-          backend work.
+          My technical training has primarily focused on .NET technologies,
+          equipping me with backend experience in Entity Framework and ASP.NET
+          Core API, as well as MVC development during training. In my
+          professional career, I have collaborated with diverse clients across
+          multiple industries, delivering work spanning testing, database
+          design, frontend and backend development.
         </p>
         <p className="text-xl text-slate-200 pt-2">
           Outside of professional development, I have a passion for web

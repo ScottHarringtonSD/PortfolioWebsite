@@ -9,6 +9,7 @@ export class Project {
     imageUrl2: string = '';
     skills: string = '';
     githubLink: string = '';
+    projectLink: string = '';
     get isNew(): boolean {
       return this.id === undefined;
     }
@@ -25,5 +26,6 @@ export class Project {
       if (initializer.brief) this.brief = initializer.brief;  
       if (initializer.skills) this.skills = initializer.skills;  
       if (initializer.githubLink) this.githubLink = initializer.githubLink;  
+      if (initializer.projectLink) this.projectLink = initializer.projectLink; 
     }
   }
